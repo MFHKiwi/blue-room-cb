@@ -40,11 +40,11 @@ func _physics_process(delta):
 	var cam_basis = $Camera3D.global_transform.basis
 	if Input.is_action_pressed("right"):
 		direction += cam_basis.x
-	elif Input.is_action_pressed("left"):
+	if Input.is_action_pressed("left"):
 		direction -= cam_basis.x
-	elif Input.is_action_pressed("backward"):
+	if Input.is_action_pressed("backward"):
 		direction += cam_basis.z
-	elif Input.is_action_pressed("forward"):
+	if Input.is_action_pressed("forward"):
 		direction -= cam_basis.z
 	else:
 		pass
