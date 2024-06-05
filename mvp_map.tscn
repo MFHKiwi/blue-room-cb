@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 [gd_scene load_steps=5 format=3 uid="uid://cav60uhqq5twl"]
 
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
@@ -29,36 +28,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.65017, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.921735, 0.387821, 0, -0.387821, 0.921735, -0.283251, 6.7195, 20.1125)
-=======
-[gd_scene load_steps=6 format=3 uid="uid://cwiyrduoivcjc"]
-
-[ext_resource type="ArrayMesh" uid="uid://ctx7bd16381h8" path="res://MapMVP.obj" id="1_f78tt"]
-[ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
-[ext_resource type="Texture2D" uid="uid://cfirixwonv1wg" path="res://floor.png" id="2_1xwkb"]
-
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nqn78"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y4u62"]
-albedo_texture = ExtResource("2_1xwkb")
-uv1_scale = Vector3(60, 60, 60)
-
-[node name="MVP_Map" type="Node3D"]
-
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
-physics_material_override = SubResource("PhysicsMaterial_nqn78")
-
-[node name="CSGMesh3D" type="CSGMesh3D" parent="StaticBody3D"]
-transform = Transform3D(-2.59657, -0.00982643, 0, 0.018037, -1.41459, 0, 0, 0, 2.67526, 0, 0, -79.1309)
-use_collision = true
-mesh = ExtResource("1_f78tt")
-material = SubResource("StandardMaterial3D_y4u62")
-
-[node name="Player" parent="." instance=ExtResource("1_mho8j")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.26254, 10.4527)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 35.833, 15.3382)
-light_energy = 16.0
-light_angular_distance = 16.29
-sky_mode = 1
->>>>>>> Stashed changes
