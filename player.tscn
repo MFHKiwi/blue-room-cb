@@ -7,10 +7,10 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ebhnb"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q8yxv"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i5fpj"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_74xoe"]
-material = SubResource("StandardMaterial3D_q8yxv")
+material = SubResource("StandardMaterial3D_i5fpj")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7j8w0"]
 shader = ExtResource("2_rjm6b")
@@ -29,21 +29,19 @@ shader_parameter/bottom_border_jitter = 6.0
 shader_parameter/noise_intensity = 0.4
 shader_parameter/noise_texture = ExtResource("3_fr21f")
 
-[node name="Player" type="Node3D"]
-
-[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+[node name="CharacterBody3D" type="CharacterBody3D"]
 script = ExtResource("1_3n2yn")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_ebhnb")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_74xoe")
 
-[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+[node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.212467, 0.520791, -0.383322)
 
-[node name="ColorRect" type="ColorRect" parent="CharacterBody3D/Camera3D"]
+[node name="ColorRect" type="ColorRect" parent="Camera3D"]
 material = SubResource("ShaderMaterial_7j8w0")
 anchors_preset = 15
 anchor_right = 1.0
@@ -52,5 +50,5 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 
-[node name="Flashlight" parent="CharacterBody3D/Camera3D" instance=ExtResource("4_vye6u")]
+[node name="Flashlight" parent="Camera3D" instance=ExtResource("4_vye6u")]
 transform = Transform3D(1, -3.79186e-16, 3.4746e-16, 3.4746e-16, 0.996195, 0.0871557, -3.79186e-16, -0.0871557, 0.996195, 0.402788, -0.290695, -0.518225)
