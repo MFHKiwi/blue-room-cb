@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvc7kb2fvw5ep"]
+
+[ext_resource type="PackedScene" uid="uid://gnlf321b0gj0" path="res://battery.blend" id="1_3xxr6"]
+
+[node name="Battery" type="Node3D"]
+
+[node name="battery" parent="." instance=ExtResource("1_3xxr6")]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)

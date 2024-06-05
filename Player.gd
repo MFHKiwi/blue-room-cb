@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 # Mouse Sensitivity
-@export var mouse_sensitivity = 0.0035
+@export var mouse_sensitivity = 0.000035
 # How fast the player moves in meters per second.
 @export var speed = 14
 # The downward acceleration when in the air, in meters per second squared.

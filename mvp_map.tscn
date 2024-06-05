@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://ddfevpogm7f5l"]
+[gd_scene load_steps=7 format=3 uid="uid://ddfevpogm7f5l"]
 
 [ext_resource type="ArrayMesh" uid="uid://ctx7bd16381h8" path="res://MapMVP.obj" id="1_f78tt"]
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
 [ext_resource type="Texture2D" uid="uid://cfirixwonv1wg" path="res://floor.png" id="2_1xwkb"]
+[ext_resource type="PackedScene" uid="uid://bvc7kb2fvw5ep" path="res://battery.tscn" id="4_1ye67"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nqn78"]
 
@@ -24,8 +25,9 @@ material = SubResource("StandardMaterial3D_y4u62")
 [node name="Player" parent="." instance=ExtResource("1_mho8j")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.26254, 10.4527)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 35.833, 15.3382)
-light_energy = 16.0
-light_angular_distance = 16.29
-sky_mode = 1
+[node name="Battery" parent="." instance=ExtResource("4_1ye67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.66581, 0)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_energy = 0.275
+omni_range = 4096.0
