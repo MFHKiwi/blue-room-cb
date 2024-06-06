@@ -39,7 +39,7 @@ shape = SubResource("CapsuleShape3D_ebhnb")
 mesh = SubResource("CapsuleMesh_74xoe")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.212467, 0.520791, -0.383322)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 0.521, 2.08165e-12)
 
 [node name="ColorRect" type="ColorRect" parent="Camera3D"]
 material = SubResource("ShaderMaterial_7j8w0")

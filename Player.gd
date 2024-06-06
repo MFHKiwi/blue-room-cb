@@ -1,7 +1,8 @@
 extends CharacterBody3D
 
 # Mouse Sensitivity
-@export var mouse_sensitivity = 0.000035
+#@export var mouse_sensitivity = 0.0035
+@export var mouse_sensitivity = 0.00055
 # How fast the player moves in meters per second.
 @export var speed = 14
 # The downward acceleration when in the air, in meters per second squared.
@@ -33,7 +34,7 @@ func _physics_process(delta):
 	
 	# Doubles the Speed When pressing the "sprint" keybind
 	if Input.is_action_pressed("sprint"):
-		speed = 28
+		speed = 20
 	else:
 		speed = 14
 	# Moving the Character Based on the Input Pressed 
