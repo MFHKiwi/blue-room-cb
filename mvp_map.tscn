@@ -49,4 +49,4 @@ mesh = ExtResource("1_f78tt")
 material = SubResource("StandardMaterial3D_y4u62")
 
 [node name="Enemy" parent="." instance=ExtResource("6_2tkkk")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.64252, 1.48003, 21.7976)
+transform = Transform3D(0.651825, 0, 0, 0, 0.651825, 0, 0, 0, 0.651825, -6.64252, 2.90096, 21.7976)
