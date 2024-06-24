@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
 [ext_resource type="Script" path="res://mvp_map.gd" id="1_v61kv"]
-[ext_resource type="PackedScene" uid="uid://bm5cpt1hdwoom" path="res://roofmap.glb" id="2_wndo5"]
-[ext_resource type="ArrayMesh" uid="uid://bvubwydsphrbl" path="res://roofmap.obj" id="3_rfc8j"]
+[ext_resource type="PackedScene" uid="uid://dfy8k6gnkjrum" path="res://horrible map by anhao the wank engine.glb" id="2_1e4i0"]
 [ext_resource type="PackedScene" uid="uid://bvc7kb2fvw5ep" path="res://battery.tscn" id="4_1ye67"]
+[ext_resource type="ArrayMesh" uid="uid://oeuac6l5cxuq" path="res://horrible map by anhao the wank engine.obj" id="5_47bpy"]
 [ext_resource type="PackedScene" uid="uid://xqaeuifbe8wm" path="res://enemy.tscn" id="6_2tkkk"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nqn78"]
@@ -19,19 +19,15 @@ script = ExtResource("1_v61kv")
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 physics_material_override = SubResource("PhysicsMaterial_nqn78")
 
-[node name="CSGMesh3D" type="CSGMesh3D" parent="StaticBody3D"]
-transform = Transform3D(-2.59657, -0.00982643, 0, 0.018037, -1.41459, 0, 0, 0, 2.67526, 0.497366, 1.13776, -79.3634)
-use_collision = true
-
-[node name="roofmap" parent="StaticBody3D" instance=ExtResource("2_wndo5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.497366, 1.13776, -0.232491)
+[node name="horrible map by anhao the wank engine" parent="StaticBody3D" instance=ExtResource("2_1e4i0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.533044, 1.5606, -0.26361)
 
 [node name="CSGMesh3D2" type="CSGMesh3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.497366, 1.13776, -0.232491)
-mesh = ExtResource("3_rfc8j")
+use_collision = true
 
 [node name="Player" parent="." instance=ExtResource("1_mho8j")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.15583, 3.26254, 39.771)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.15583, 5.30438, 39.771)
 
 [node name="Battery" parent="." instance=ExtResource("4_1ye67")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.66581, 20.7715)
@@ -41,13 +37,14 @@ light_energy = 0.275
 omni_range = 4096.0
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0496588, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0255013, 1.61611, -0.00846004)
 navigation_mesh = SubResource("NavigationMesh_q21pl")
 
 [node name="CSGMesh3D2" type="CSGMesh3D" parent="NavigationRegion3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.497259, 1.13776, -0.232491)
+visible = false
 use_collision = true
-mesh = ExtResource("3_rfc8j")
+mesh = ExtResource("5_47bpy")
 
 [node name="Enemy" parent="." instance=ExtResource("6_2tkkk")]
 transform = Transform3D(0.651825, 0, 0, 0, 0.651825, 0, 0, 0, 0.651825, -6.64252, 2.90096, 21.7976)
