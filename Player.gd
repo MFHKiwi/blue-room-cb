@@ -24,6 +24,10 @@ func _unhandled_input(event):
 		
 		# Rotate the camera along with the player for yaw only
 		$Camera3D.rotate_y(-event.relative.x * mouse_sensitivity)
+	if event is InputEventMouseButton:
+		if event.is_action_pressed("button1"):
+			print("toggling light")
+			get_tree().call_group("flashlight", "toggle")
 
 func _physics_process(delta):
 	var direction = Vector3.ZERO

@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://d4elba56vy1uo"]
+[gd_scene load_steps=3 format=3 uid="uid://d4elba56vy1uo"]
 
+[ext_resource type="Script" path="res://flashlight.gd" id="1_3t1lu"]
 [ext_resource type="PackedScene" uid="uid://ccul0vbuidxy4" path="res://flashlight.blend" id="1_a7fop"]
 
-[node name="Flashlight" type="Node3D"]
+[node name="Flashlight" type="Node3D" groups=["flashlight"]]
+script = ExtResource("1_3t1lu")
 
 [node name="flashlight" parent="." instance=ExtResource("1_a7fop")]
 transform = Transform3D(-0.05, 1.74393e-17, -4.37114e-09, 1.74393e-17, 0.05, -1.74393e-17, 4.37114e-09, -1.74393e-17, -0.05, 0, 0, 0)
