@@ -22,3 +22,5 @@ func _process(delta):
 	if count_down <= 0 and $ProgressBar2.value > 0 and $SpotLight3D.visible == true:
 		$ProgressBar2.value -= 1
 		count_down = 0.25
+	if $ProgressBar2.value <= 0:
+		$SpotLight3D.visible = false
