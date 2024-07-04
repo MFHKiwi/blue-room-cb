@@ -63,5 +63,10 @@ func _physics_process(delta):
 	# Moving the Character
 	velocity = target_velocity
 	move_and_slide()
-
-
+	for index in range(get_slide_collision_count()):
+		var collision = get_slide_collision(index)
+		if collision.get_collider().is_in_group("battery"):
+			print("Collided")
+			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
+		if collision.get_collider().is_in_group("enemies"):
+			get_tree().reload_current_scene()

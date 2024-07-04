@@ -10,6 +10,7 @@ func _physics_process(delta):
 	var new_velocity = (next_location - current_location).normalized() * SPEED
 	velocity = new_velocity
 	move_and_slide()
+	rotation.y = atan2(velocity.x, velocity.z)
 
 func update_target_location(target_location):
 	nav_agent.set_target_position(target_location)

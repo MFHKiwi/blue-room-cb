@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://bvc7kb2fvw5ep"]
+[gd_scene load_steps=3 format=3 uid="uid://bvc7kb2fvw5ep"]
 
 [ext_resource type="PackedScene" uid="uid://gnlf321b0gj0" path="res://battery.blend" id="1_3xxr6"]
 
-[node name="Battery" type="Node3D"]
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_sk2xr"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" groups=["battery"]]
 
 [node name="battery" parent="." instance=ExtResource("1_3xxr6")]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CylinderShape3D_sk2xr")
