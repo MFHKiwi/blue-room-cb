@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
 [ext_resource type="Script" path="res://mvp_map.gd" id="1_v61kv"]
-[ext_resource type="PackedScene" uid="uid://dfy8k6gnkjrum" path="res://horrible map by anhao the wank engine.glb" id="2_1e4i0"]
+[ext_resource type="ArrayMesh" uid="uid://ckdo1tq4siicc" path="res://gamemap.obj" id="2_aqkk7"]
+[ext_resource type="PackedScene" uid="uid://dabr8jfwnk8rp" path="res://gamemap.glb" id="3_551rr"]
 [ext_resource type="PackedScene" uid="uid://bvc7kb2fvw5ep" path="res://battery.tscn" id="4_1ye67"]
-[ext_resource type="ArrayMesh" uid="uid://oeuac6l5cxuq" path="res://horrible map by anhao the wank engine.obj" id="5_47bpy"]
 [ext_resource type="PackedScene" uid="uid://xqaeuifbe8wm" path="res://enemy.tscn" id="6_2tkkk"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nqn78"]
@@ -20,12 +20,13 @@ script = ExtResource("1_v61kv")
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 physics_material_override = SubResource("PhysicsMaterial_nqn78")
 
-[node name="horrible map by anhao the wank engine" parent="StaticBody3D" instance=ExtResource("2_1e4i0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 2.08165e-12)
-
 [node name="CSGMesh3D2" type="CSGMesh3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 2.08165e-12)
+visible = false
 use_collision = true
+mesh = ExtResource("2_aqkk7")
+
+[node name="gamemap" parent="StaticBody3D" instance=ExtResource("3_551rr")]
 
 [node name="Player" parent="." instance=ExtResource("1_mho8j")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.15583, 2.60871, 39.771)
@@ -45,7 +46,7 @@ navigation_mesh = SubResource("NavigationMesh_q21pl")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 2.08165e-12)
 visible = false
 use_collision = true
-mesh = ExtResource("5_47bpy")
+mesh = ExtResource("2_aqkk7")
 
 [node name="Enemy" parent="." instance=ExtResource("6_2tkkk")]
 transform = Transform3D(0.652, 0, 0, 0, 0.652, 0, 0, 0, 0.652, -6.64252, 2.35063, 21.7976)

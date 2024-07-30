@@ -9,10 +9,13 @@ extends CharacterBody3D
 # A boolean to track if the player is currently jumping
 var target_velocity = Vector3.ZERO
 
+func camera_fov(fov):
+		get_viewport().get_camera_3d().fov = fov
+
 func _ready():
+	var fov = 75
 	# Lock the mouse cursor to the screen
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	
 func _unhandled_input(event):
 	
 	if event is InputEventMouseMotion:
@@ -30,6 +33,7 @@ func _unhandled_input(event):
 			get_tree().call_group("flashlight", "toggle")
 
 func _physics_process(delta):
+	var fov = 75
 	var direction = Vector3.ZERO
 	
 	if Input.is_action_pressed("restart"):
@@ -37,8 +41,10 @@ func _physics_process(delta):
 	
 	# Doubles the Speed When pressing the "sprint" keybind
 	if Input.is_action_pressed("sprint") and Stamina.value > 0:
-		speed = 28
+		speed = 18
+		fov = camera_fov(82)
 	else:
+		fov = camera_fov(75)
 		speed = 14
 	# Moving the Character Based on the Input Pressed 
 	var cam_basis = $Camera3D.global_transform.basis

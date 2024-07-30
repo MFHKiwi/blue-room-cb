@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ckdo1tq4siicc"
+path="res://.godot/imported/gamemap.obj-17babf1c695cebc25d7e79972fc215dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gamemap.obj-17babf1c695cebc25d7e79972fc215dc.mesh"]
+
+source_file="res://gamemap.obj"
+dest_files=["res://.godot/imported/gamemap.obj-17babf1c695cebc25d7e79972fc215dc.mesh", "res://.godot/imported/gamemap.obj-17babf1c695cebc25d7e79972fc215dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
