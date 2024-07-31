@@ -1,0 +1,1442 @@
+# Blender 4.1.1 MTL File: 'gamemap.blend'
+# www.blender.org
+
+newmtl Glass_01.014
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.215861 0.215861 0.215861
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 6
+
+newmtl Glass_01.015
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.215861 0.215861 0.215861
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 6
+
+newmtl Glass_01.016
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.215861 0.215861 0.215861
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 6
+
+newmtl Glass_01.017
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.215861 0.215861 0.215861
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 6
+
+newmtl HoboTexture_dead.001
+Ns 1.788855
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl MI_Chalk_Board_01_A
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Chalk_Board_01_A.PNG
+
+newmtl MI_Chalk_Board_01_A.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Chalk_Board_01_A.PNG
+
+newmtl MI_Chalk_Board_01_A.002
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Chalk_Board_01_A.PNG
+
+newmtl MI_Chalk_Board_01_A.003
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Chalk_Board_01_A.PNG
+
+newmtl MI_Chalk_Board_01_A.004
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Chalk_Board_01_A.PNG
+
+newmtl MI_Classroom_Chair_Desk_01
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.002
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.003
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.004
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.005
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.006
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.007
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.008
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.009
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.010
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.011
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.012
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.013
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.014
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.015
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.016
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.017
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.018
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.019
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.020
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.021
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.022
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.023
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.024
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.025
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.026
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.027
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.028
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.029
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.030
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.031
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.032
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.033
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.034
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.035
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.036
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.037
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Classroom_Chair_Desk_01.038
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Classroom_Chair_Desk_01.PNG
+
+newmtl MI_Clock_03
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Props/Clock_01.PNG
+
+newmtl MI_Clock_03.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Props/Clock_01.PNG
+
+newmtl MI_Clock_03.002
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Props/Clock_01.PNG
+
+newmtl MI_Door_Wood_07_A.014
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Architecture/Door_Wood_01.PNG
+
+newmtl MI_Door_Wood_07_A.015
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Architecture/Door_Wood_01.PNG
+
+newmtl MI_Door_Wood_07_A.016
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Architecture/Door_Wood_01.PNG
+
+newmtl MI_Door_Wood_07_A.017
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Architecture/Door_Wood_01.PNG
+
+newmtl MI_Podium_02
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.002
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.003
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.004
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.005
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.006
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.007
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.008
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.009
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_Podium_02.010
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Furniture/Podium_01.PNG
+
+newmtl MI_World_Map_01
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Props/World_Map_01.PNG
+
+newmtl MI_World_Map_01.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Props/World_Map_01.PNG
+
+newmtl MI_World_Map_01.002
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Props/World_Map_01.PNG
+
+newmtl Material
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 9
+
+newmtl Material.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/floor.png
+
+newmtl Material.003
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.005
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.006
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.007
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.008
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.009
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.010
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.011
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.012
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.013
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.014
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.015
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.016
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.017
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Ground_Texture_02_var2.png
+
+newmtl Material.018
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.019
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.020
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.021
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.022
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.023
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.024
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+map_d PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+
+newmtl Material.025
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+map_d PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+
+newmtl Material.026
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+map_d PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+
+newmtl Material.027
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+map_d PS1_Restroom/PS1_Restroom_Assets/toilet_D.png
+
+newmtl Material.028
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.029
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd PS1_Restroom/PS1_Restroom_Assets/bathroom_floor_D.png
+
+newmtl Material.030
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.031
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.032
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.033
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.034
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.035
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.036
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.037
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.025322 0.800804
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.038
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.025322 0.800804
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.039
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.040
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.025322 0.800804
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.025322 0.800804
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Material.042
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.043
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.044
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.045
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.046
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.048
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.049
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.050
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.051
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.056
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/wall.png
+
+newmtl Material.062
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.063
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.064
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.065
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.066
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.067
+Ns 44.930511
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.068
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.069
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.070
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.071
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl Material.072
+Ns 37.500000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_baseColor.png
+
+newmtl TexturesCom_Branches0026_1_S.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/TexturesCom_Branches0026_1_S.png
+map_d C:/TexturesCom_Branches0026_1_S.png
+
+newmtl TexturesCom_Branches0026_1_S.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/TexturesCom_Branches0026_1_S.png
+map_d C:/TexturesCom_Branches0026_1_S.png
+
+newmtl TexturesCom_Branches0026_1_S.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/TexturesCom_Branches0026_1_S.png
+map_d C:/TexturesCom_Branches0026_1_S.png
+
+newmtl TexturesCom_Branches0026_1_S.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/TexturesCom_Branches0026_1_S.png
+map_d C:/TexturesCom_Branches0026_1_S.png
+
+newmtl TexturesCom_Branches0026_1_S.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/TexturesCom_Branches0026_1_S.png
+map_d C:/TexturesCom_Branches0026_1_S.png
+
+newmtl TexturesCom_Branches0026_1_S.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/TexturesCom_Branches0026_1_S.png
+map_d C:/TexturesCom_Branches0026_1_S.png
+
+newmtl hedge.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/TexturesCom_Hedges0023_S.jpg
+
+newmtl hedge.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/TexturesCom_Hedges0023_S.jpg
+
+newmtl hedge.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/TexturesCom_Hedges0023_S.jpg
+
+newmtl hedge.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/TexturesCom_Hedges0023_S.jpg
+
+newmtl hedge.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/TexturesCom_Hedges0023_S.jpg
+
+newmtl hedge.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/TexturesCom_Hedges0023_S.jpg
