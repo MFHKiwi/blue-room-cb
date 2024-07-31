@@ -1,0 +1,22 @@
+# Blender 4.1.1 MTL File: 'untitled.blend'
+# www.blender.org
+
+newmtl Glass_01
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.215861 0.215861 0.215861
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.000000
+illum 6
+
+newmtl MI_Door_Wood_07_A
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd PSX Japanese Classroom Pack/Textures/Architecture/Door_Wood_01.PNG
