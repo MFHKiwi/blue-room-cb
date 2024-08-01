@@ -34,13 +34,15 @@ shader_parameter/noise_texture = ExtResource("3_fr21f")
 script = ExtResource("1_3n2yn")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.4, 0, 0, 0, 1, 0, 2, 0)
 shape = SubResource("CapsuleShape3D_ebhnb")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.41529, 0, 0, 0, 1, 0, 2, 0)
 mesh = SubResource("CapsuleMesh_74xoe")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.212467, 0.520791, -0.383322)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.212467, 2.52079, -0.383322)
 
 [node name="ColorRect" type="ColorRect" parent="Camera3D"]
 material = SubResource("ShaderMaterial_7j8w0")

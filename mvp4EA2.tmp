@@ -30,6 +30,9 @@ mesh = ExtResource("2_e6cm2")
 
 [node name="Player" parent="." instance=ExtResource("1_mho8j")]
 transform = Transform3D(1, 0, 0, 0, 1.7248, 0, 0, 0, 1, 2.15583, 2.60871, 39.771)
+mouse_sensitivity = null
+speed = null
+fall_acceleration = null
 
 [node name="Battery" parent="." instance=ExtResource("4_1ye67")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.66581, 20.7715)

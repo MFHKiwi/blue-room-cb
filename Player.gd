@@ -10,7 +10,7 @@ extends CharacterBody3D
 var target_velocity = Vector3.ZERO
 
 func camera_fov(fov):
-		get_viewport().get_camera_3d().fov = fov
+		fov = get_viewport().get_camera_3d().fov
 
 func _ready():
 	var fov = 75
@@ -33,9 +33,8 @@ func _unhandled_input(event):
 			get_tree().call_group("flashlight", "toggle")
 
 func _physics_process(delta):
-	var fov = 75
 	var direction = Vector3.ZERO
-	
+	var fov = 75
 	if Input.is_action_pressed("restart"):
 		get_tree().reload_current_scene()
 	
@@ -76,3 +75,4 @@ func _physics_process(delta):
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
 		if collision.get_collider().is_in_group("enemies"):
 			get_tree().reload_current_scene()
+
