@@ -75,4 +75,3 @@ func _physics_process(delta):
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
 		if collision.get_collider().is_in_group("enemies"):
 			get_tree().reload_current_scene()
-
