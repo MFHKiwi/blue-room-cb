@@ -8,6 +8,7 @@ extends CharacterBody3D
 @export var fall_acceleration = -750
 # A boolean to track if the player is currently jumping
 var target_velocity = Vector3.ZERO
+@onready var headbob = $Camera3D/AnimationPlayer.speed_scale
 
 func camera_fov(fov):
 		fov = get_viewport().get_camera_3d().fov
@@ -42,11 +43,15 @@ func _physics_process(delta):
 	if Input.is_action_pressed("sprint") and Stamina.value > 0:
 		speed = 18
 		fov = camera_fov(82)
+		$Camera3D/AnimationPlayer.speed_scale = 2
 	else:
 		fov = camera_fov(75)
 		speed = 14
 	# Moving the Character Based on the Input Pressed 
 	var cam_basis = $Camera3D.global_transform.basis
+	if Input.is_action_pressed("backward") or Input.is_action_pressed("forward") or Input.is_action_pressed("left") or Input.is_action_pressed("right"):
+		headbob = 1
+		$Camera3D/AnimationPlayer.play("walk")
 	if Input.is_action_pressed("right"):
 		direction += cam_basis.x
 	if Input.is_action_pressed("left"):

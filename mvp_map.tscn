@@ -49,4 +49,4 @@ use_collision = true
 mesh = ExtResource("2_e6cm2")
 
 [node name="Enemy" parent="." instance=ExtResource("6_2tkkk")]
-transform = Transform3D(0.652, 0, 0, 0, 0.652, 0, 0, 0, 0.652, -30.1697, 2.35063, 13.336)
+transform = Transform3D(0.652, 0, 0, 0, 0.652, 0, 0, 0, 0.652, -2.76562, 2.44795, 19.2432)

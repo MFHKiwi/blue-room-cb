@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bac3bicdanlqf"]
+[gd_scene load_steps=13 format=3 uid="uid://bac3bicdanlqf"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_3n2yn"]
 [ext_resource type="Shader" path="res://vhs.gdshader" id="2_rjm6b"]
@@ -32,6 +32,21 @@ shader_parameter/noise_texture = ExtResource("3_fr21f")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1yky7"]
 bg_color = Color(3.63936e-06, 0.665137, 0.373048, 1)
+
+[sub_resource type="Animation" id="Animation_s8kjp"]
+resource_name = "walk"
+tracks/0/type = "position_3d"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = PackedFloat32Array(0, 1, -0.212467, 2.52079, -0.383322, 0.5, 1, -0.212467, 2.63358, -0.383322, 1, 1, -0.212467, 2.52079, -0.383322)
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1phhn"]
+_data = {
+"walk": SubResource("Animation_s8kjp")
+}
 
 [node name="CharacterBody3D" type="CharacterBody3D"]
 script = ExtResource("1_3n2yn")
@@ -70,3 +85,8 @@ grow_vertical = 0
 theme_override_styles/background = SubResource("StyleBoxFlat_1yky7")
 value = 100.0
 script = ExtResource("5_r3e4l")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Camera3D"]
+libraries = {
+"": SubResource("AnimationLibrary_1phhn")
+}
