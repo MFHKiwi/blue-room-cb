@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dy6o6brnpkmrm"
-path="res://.godot/imported/running animation.glb-defbe937c782e1df7d7ff10cfca228f3.scn"
+uid="uid://pbism0v5su5d"
+path="res://.godot/imported/walking_animation.glb-cd2497ce17e9db4cb11a24c35ce726da.scn"
 
 [deps]
 
-source_file="res://running animation.glb"
-dest_files=["res://.godot/imported/running animation.glb-defbe937c782e1df7d7ff10cfca228f3.scn"]
+source_file="res://walking_animation.glb"
+dest_files=["res://.godot/imported/walking_animation.glb-cd2497ce17e9db4cb11a24c35ce726da.scn"]
 
 [params]
 

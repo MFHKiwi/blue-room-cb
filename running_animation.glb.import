@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://3hbsv1uyc3n3"
-path="res://.godot/imported/Walking Animation.fbx-00d0fe5e405f0c3b3f8c321986403ed5.scn"
+uid="uid://b6hq3witdatkb"
+path="res://.godot/imported/running_animation.glb-fa298e1cb03db3a12cd7174b582bf3bb.scn"
 
 [deps]
 
-source_file="res://Walking Animation.fbx"
-dest_files=["res://.godot/imported/Walking Animation.fbx-00d0fe5e405f0c3b3f8c321986403ed5.scn"]
+source_file="res://running_animation.glb"
+dest_files=["res://.godot/imported/running_animation.glb-fa298e1cb03db3a12cd7174b582bf3bb.scn"]
 
 [params]
 
@@ -31,8 +31,8 @@ animation/remove_immutable_tracks=true
 import_script/path=""
 _subresources={
 "animations": {
-"mixamo_com": {
-"save_to_file/enabled": false,
+"Armature|mixamo_com|Layer0": {
+"save_to_file/enabled": true,
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "",
 "settings/loop_mode": 1,

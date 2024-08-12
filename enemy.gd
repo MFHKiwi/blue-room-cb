@@ -11,6 +11,7 @@ func _physics_process(delta):
 	velocity = new_velocity
 	move_and_slide()
 	rotation.y = atan2(velocity.x, velocity.z)
+	$Armature/AnimationPlayer.play("Armature|mixamo_com|Layer0")
 
 func update_target_location(target_location):
 	nav_agent.set_target_position(target_location)
