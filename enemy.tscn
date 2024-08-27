@@ -377,14 +377,13 @@ _data = {
 "RESET": SubResource("Animation_dqeb4")
 }
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_44cmh"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sco6i"]
 
 [node name="Enemy" type="CharacterBody3D" groups=["enemies"]]
 script = ExtResource("1_wbo4p")
 
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
-path_desired_distance = 0.1
-target_desired_distance = 0.2
+target_desired_distance = 0.1
 path_max_distance = 6.01
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
@@ -641,20 +640,12 @@ libraries = {
 "": SubResource("AnimationLibrary_8h40t")
 }
 
-[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.639251, -0.768998, 0, 0.768998, 0.639251, 0, 3.8097, 0.591695)
-shape = SubResource("CapsuleShape3D_6oif0")
-
-[node name="CollisionShape3D4" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.687531, -0.726155, 0, 0.726155, 0.687531, -0.226601, 4.67266, 1.86052)
-shape = SubResource("CapsuleShape3D_6oif0")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.397733, 5.0838, 2.53313)
-shape = SubResource("SphereShape3D_44cmh")
-
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0)
 stream = ExtResource("4_ln6ev")
 autoplay = true
 max_distance = 30.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2.29504, 0, 0, 0, 1.96026, 0, 0, 0, 1.7767, 0, 3.28362, 1.1712)
+shape = SubResource("CapsuleShape3D_sco6i")

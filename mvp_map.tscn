@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
 [ext_resource type="Script" path="res://mvp_map.gd" id="1_v61kv"]
-[ext_resource type="PackedScene" uid="uid://b51tko0bmxhcv" path="res://remap.glb" id="3_aat5k"]
+[ext_resource type="PackedScene" uid="uid://cncqxlyd7iwd1" path="res://map3.glb" id="3_gjo8v"]
 [ext_resource type="PackedScene" uid="uid://bvc7kb2fvw5ep" path="res://battery.tscn" id="4_1ye67"]
 [ext_resource type="PackedScene" uid="uid://xqaeuifbe8wm" path="res://enemy.tscn" id="6_2tkkk"]
 [ext_resource type="ArrayMesh" uid="uid://rhx2hd6grs28" path="res://remap.obj" id="6_doj0t"]
@@ -26,7 +26,7 @@ visible = false
 use_collision = true
 mesh = ExtResource("6_doj0t")
 
-[node name="remap" parent="StaticBody3D" instance=ExtResource("3_aat5k")]
+[node name="map3" parent="StaticBody3D" instance=ExtResource("3_gjo8v")]
 
 [node name="Player" parent="." instance=ExtResource("1_mho8j")]
 transform = Transform3D(1, 0, 0, 0, 1.7248, 0, 0, 0, 1, 2.15583, 2.60871, 39.771)
@@ -49,7 +49,7 @@ use_collision = true
 mesh = ExtResource("6_doj0t")
 
 [node name="Enemy" parent="." instance=ExtResource("6_2tkkk")]
-transform = Transform3D(0.652, 0, 0, 0, 0.806076, 0, 0, 0, 0.652, -2.76562, 1.97282, 19.2432)
+transform = Transform3D(0.652, 0, 0, 0, 0.806076, 0, 0, 0, 0.652, -28.7656, 1.97282, 19.2432)
 
 [node name="Rain" parent="." instance=ExtResource("7_ilk7m")]
 transform = Transform3D(8.624, 0, 0, 0, 3.34008, 0, 0, 0, 7.26, 1, 44.6634, 30.0406)

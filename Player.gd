@@ -78,5 +78,7 @@ func _physics_process(delta):
 		if collision.get_collider().is_in_group("battery"):
 			print("Collided")
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
-		if collision.get_collider().is_in_group("enemies"):
+		#if collision.get_collider().is_in_group("enemies"):
+			#get_tree().reload_current_scene()
+		if collision.get_collider().is_class("CharacterBody3D"):
 			get_tree().reload_current_scene()
