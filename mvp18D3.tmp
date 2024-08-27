@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://ddfevpogm7f5l"]
+[gd_scene load_steps=9 format=3 uid="uid://ddfevpogm7f5l"]
 
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
 [ext_resource type="Script" path="res://mvp_map.gd" id="1_v61kv"]
@@ -6,7 +6,6 @@
 [ext_resource type="PackedScene" uid="uid://bvc7kb2fvw5ep" path="res://battery.tscn" id="4_1ye67"]
 [ext_resource type="PackedScene" uid="uid://xqaeuifbe8wm" path="res://enemy.tscn" id="6_2tkkk"]
 [ext_resource type="ArrayMesh" uid="uid://rhx2hd6grs28" path="res://remap.obj" id="6_doj0t"]
-[ext_resource type="PackedScene" uid="uid://cprg2mrb1flim" path="res://rain.tscn" id="7_ilk7m"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nqn78"]
 
@@ -49,7 +48,4 @@ use_collision = true
 mesh = ExtResource("6_doj0t")
 
 [node name="Enemy" parent="." instance=ExtResource("6_2tkkk")]
-transform = Transform3D(0.652, 0, 0, 0, 0.806076, 0, 0, 0, 0.652, -2.76562, 1.97282, 19.2432)
-
-[node name="Rain" parent="." instance=ExtResource("7_ilk7m")]
-transform = Transform3D(8.624, 0, 0, 0, 3.34008, 0, 0, 0, 7.26, 1, 44.6634, 30.0406)
+transform = Transform3D(0.652, 0, 0, 0, 0.652, 0, 0, 0, 0.652, -2.76562, 1.97282, 19.2432)
