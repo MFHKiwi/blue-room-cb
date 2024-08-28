@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5n2706y7cx2n"]
+
+[ext_resource type="PackedScene" uid="uid://chgpigrlonqo8" path="res://door.glb" id="1_usx46"]
+[ext_resource type="ArrayMesh" uid="uid://dun4jkijdhpx3" path="res://door.obj" id="2_eovxr"]
+[ext_resource type="Script" path="res://door.gd" id="2_r3eof"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fbj6g"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="door" parent="." instance=ExtResource("1_usx46")]
+script = ExtResource("2_r3eof")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="door"]
+visible = false
+mesh = ExtResource("2_eovxr")
+
+[node name="Area3D" type="Area3D" parent="door/CSGMesh3D"]
+transform = Transform3D(250, 0, 0, 0, 250, 0, 0, 0, 250, 0.305445, 0.890701, 0.705077)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="door/CSGMesh3D/Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.00330855)
+shape = SubResource("BoxShape3D_fbj6g")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="door/CSGMesh3D/Area3D"]
+
+[connection signal="area_entered" from="door/CSGMesh3D/Area3D" to="door" method="_on_area_3d_area_entered"]
+[connection signal="body_entered" from="door/CSGMesh3D/Area3D" to="door" method="_on_area_3d_body_entered"]
