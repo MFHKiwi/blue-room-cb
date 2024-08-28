@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://gnlf321b0gj0"
-path="res://.godot/imported/battery.blend-540bdaad895c02ecb119dcad55807b7e.scn"
+uid="uid://d0sphunwrjila"
+path="res://.godot/imported/basketball.blend-e7353e61d3d6fb352fabb53c09da7859.scn"
 
 [deps]
 
-source_file="res://battery.blend"
-dest_files=["res://.godot/imported/battery.blend-540bdaad895c02ecb119dcad55807b7e.scn"]
+source_file="res://basketball.blend"
+dest_files=["res://.godot/imported/basketball.blend-e7353e61d3d6fb352fabb53c09da7859.scn"]
 
 [params]
 

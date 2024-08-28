@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://ddfevpogm7f5l"]
+[gd_scene load_steps=13 format=3 uid="uid://ddfevpogm7f5l"]
 
 [ext_resource type="PackedScene" uid="uid://bac3bicdanlqf" path="res://player.tscn" id="1_mho8j"]
 [ext_resource type="Script" path="res://mvp_map.gd" id="1_v61kv"]
@@ -8,6 +8,7 @@
 [ext_resource type="ArrayMesh" uid="uid://rhx2hd6grs28" path="res://remap.obj" id="6_doj0t"]
 [ext_resource type="PackedScene" uid="uid://cprg2mrb1flim" path="res://rain.tscn" id="7_ilk7m"]
 [ext_resource type="PackedScene" uid="uid://c5n2706y7cx2n" path="res://door.tscn" id="8_m3hud"]
+[ext_resource type="PackedScene" uid="uid://d0sphunwrjila" path="res://basketball.blend" id="9_lpfch"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_nqn78"]
 
@@ -33,7 +34,6 @@ mesh = ExtResource("6_doj0t")
 
 [node name="Player" parent="." instance=ExtResource("1_mho8j")]
 transform = Transform3D(1, 0, 0, 0, 1.7248, 0, 0, 0, 1, 2.15583, 2.60871, 39.771)
-visible = false
 
 [node name="Battery" parent="." instance=ExtResource("4_1ye67")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.63202, 30.5814)
@@ -73,3 +73,6 @@ transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08,
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(18.1248, 0, 0, 0, 6.60873, 0, 0, 0, -14.8206, 3.41828, 0.742891, 32.1691)
 mesh = SubResource("SphereMesh_5x0cm")
+
+[node name="basketball" parent="." instance=ExtResource("9_lpfch")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.8086, 3.58817, 26.4048)
