@@ -4,6 +4,9 @@ extends CharacterBody3D
 
 var SPEED = 7.50
 
+func _ready():
+	set_physics_process(false)
+
 func _physics_process(delta):
 	var current_location = global_transform.origin
 	var next_location = nav_agent.get_next_path_position()

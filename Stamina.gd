@@ -18,4 +18,3 @@ func _process(delta):
 	else:
 		if value <= 100:	
 			value += 20*delta
-

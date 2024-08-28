@@ -10,6 +10,8 @@ extends CharacterBody3D
 var target_velocity = Vector3.ZERO
 @onready var headbob = $Camera3D/AnimationPlayer.speed_scale
 
+var basketball_counter = 0
+
 func camera_fov(fov):
 		fov = get_viewport().get_camera_3d().fov
 
@@ -17,6 +19,7 @@ func _ready():
 	var fov = 75
 	# Lock the mouse cursor to the screen
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	
 func _unhandled_input(event):
 	
 	if event is InputEventMouseMotion:
@@ -75,8 +78,11 @@ func _physics_process(delta):
 	move_and_slide()
 	for index in range(get_slide_collision_count()):
 		var collision = get_slide_collision(index)
+		if collision.get_collider().is_in_group("basketball"):
+			collision.get_collider().set_visible(false)
+			basketball_counter += 1
+			get_node("/root/MVP_Map/Enemy").set_physics_process(true)
 		if collision.get_collider().is_in_group("battery"):
-			print("Collided")
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
 		#if collision.get_collider().is_in_group("enemies"):
 			#get_tree().reload_current_scene()
