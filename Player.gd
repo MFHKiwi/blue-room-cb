@@ -1,5 +1,7 @@
 extends CharacterBody3D
 
+var main_menu = preload("res://main_menu.tscn")
+
 # Mouse Sensitivity
 @export var mouse_sensitivity = 0.001
 # How fast the player moves in meters per second.
@@ -39,8 +41,8 @@ func _unhandled_input(event):
 func _physics_process(delta):
 	var direction = Vector3.ZERO
 	var fov = 75
-	if Input.is_action_pressed("restart"):
-		get_tree().reload_current_scene()
+	#if Input.is_action_pressed("restart"):
+	#	get_tree().reload_current_scene()
 	
 	# Doubles the Speed When pressing the "sprint" keybind
 	if Input.is_action_pressed("sprint") and Stamina.value > 0:
@@ -85,4 +87,4 @@ func _physics_process(delta):
 		if collision.get_collider().is_in_group("battery"):
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
 		if collision.get_collider().is_class("CharacterBody3D"):
-			get_tree().reload_current_scene() 
+			get_tree().call_group("menu", "_on_player_death")

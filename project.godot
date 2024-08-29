@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="BlueRoomContainmentBreach"
-run/main_scene="res://mvp_map.tscn"
+run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -22,6 +22,7 @@ Stamina="*res://Stamina.gd"
 [display]
 
 window/size/mode=3
+window/stretch/mode="canvas_items"
 
 [input]
 
