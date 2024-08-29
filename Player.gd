@@ -80,18 +80,20 @@ func _physics_process(delta):
 	# Moving the Character
 	velocity = target_velocity
 	move_and_slide()
-	for index in range(get_slide_collision_count()):
-		var collision = get_slide_collision(index)
-		if collision.get_collider().is_in_group("basketball"): 
-			collision.get_collider().set_visible(false)
-			basketball_counter += 1
-			enemy.set_physics_process(true)
-		if collision.get_collider().is_in_group("battery"):
-			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
-		if collision.get_collider().is_class("CharacterBody3D"):
-			get_tree().call_group("menu", "_on_player_death")
 	angle = self.rotation_degrees.y - enemy.rotation_degrees.y
 	if angle < 30 and angle > -30:
 		enemy.facing = true
 	else:
 		enemy.facing = false
+	if basketball_counter == 5:
+		get_tree().call_group("menu", "_on_player_death")
+	for index in range(get_slide_collision_count()):
+		var collision = get_slide_collision(index)
+		if collision.get_collider().is_in_group("basketball"): 
+			basketball_counter += 1
+			enemy.set_physics_process(true)
+			collision.get_collider().queue_free()
+		if collision.get_collider().is_in_group("battery"):
+			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
+		if collision.get_collider().is_class("CharacterBody3D"):
+			get_tree().call_group("menu", "_on_player_death")
