@@ -4,12 +4,11 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3hbsv1uyc3n3"
-path="res://.godot/imported/Walking Animation.fbx-00d0fe5e405f0c3b3f8c321986403ed5.scn"
+valid=false
 
 [deps]
 
 source_file="res://Walking Animation.fbx"
-dest_files=["res://.godot/imported/Walking Animation.fbx-00d0fe5e405f0c3b3f8c321986403ed5.scn"]
 
 [params]
 
@@ -1837,5 +1836,3 @@ _subresources={
 fbx/importer=1
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1
-gltf/naming_version=0
-gltf/embedded_image_handling=1

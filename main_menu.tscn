@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://ddj3cepkbepvq"]
+[gd_scene load_steps=4 format=3 uid="uid://b8dahemfbbela"]
 
 [ext_resource type="Script" path="res://main_menu.gd" id="1_t1pf3"]
 [ext_resource type="Texture2D" uid="uid://c386wwexmd2ig" path="res://background.png" id="2_e8ht2"]
@@ -85,6 +85,7 @@ text = "[center]You won, GG!
 scroll_active = false
 
 [node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
 offset_left = 778.0
 offset_top = 37.0
 offset_right = 1132.0
