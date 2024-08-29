@@ -649,3 +649,8 @@ max_distance = 30.0
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(2.29504, 0, 0, 0, 1.96026, 0, 0, 0, 1.7767, 0, 3.28362, 1.1712)
 shape = SubResource("CapsuleShape3D_sco6i")
+
+[node name="VisibleOnScreenNotifier3D" type="VisibleOnScreenNotifier3D" parent="."]
+
+[connection signal="screen_entered" from="VisibleOnScreenNotifier3D" to="." method="_on_visible_on_screen_notifier_3d_screen_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier3D" to="." method="_on_visible_on_screen_notifier_3d_screen_exited"]

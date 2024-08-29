@@ -9,6 +9,7 @@ func _on_button_pressed() -> void:
 	self.set_visible(false)
 
 func _on_player_death() -> void:
+	await get_tree().create_timer(1).timeout
 	get_tree().root.remove_child(main_scene)
 	main_scene.free()
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)

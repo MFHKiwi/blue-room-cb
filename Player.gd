@@ -10,6 +10,10 @@ extends CharacterBody3D
 var target_velocity = Vector3.ZERO
 @onready var headbob = $Camera3D/AnimationPlayer.speed_scale
 
+@onready var enemy = get_node("/root/MVP_Map/Enemy")
+
+var angle = 0
+
 var basketball_counter = 0
 
 func camera_fov(fov):
@@ -24,17 +28,17 @@ func _unhandled_input(event):
 	
 	if event is InputEventMouseMotion:
 		# Debugging: Print mouse motion for troubleshooting
-		print("Mouse Motion:", event.relative)
+		#print("Mouse Motion:", event.relative)
 		
 		# Adjust the rotation of the player based on mouse motion for yaw only
 		rotate_y(-event.relative.x * mouse_sensitivity)
-		
-		# Rotate the camera along with the player for yaw only
-		$Camera3D.rotate_y(-event.relative.x * mouse_sensitivity)
 	if event is InputEventMouseButton:
 		if event.is_action_pressed("button1"):
 			print("toggling light")
 			get_tree().call_group("flashlight", "toggle")
+		elif event.is_action_pressed("button2"):
+			print("flashing light")
+			get_tree().call_group("flashlight", "flash")
 
 func _physics_process(delta):
 	var direction = Vector3.ZERO
@@ -81,8 +85,13 @@ func _physics_process(delta):
 		if collision.get_collider().is_in_group("basketball"): 
 			collision.get_collider().set_visible(false)
 			basketball_counter += 1
-			get_node("/root/MVP_Map/Enemy").set_physics_process(true)
+			enemy.set_physics_process(true)
 		if collision.get_collider().is_in_group("battery"):
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
 		if collision.get_collider().is_class("CharacterBody3D"):
 			get_tree().call_group("menu", "_on_player_death")
+	angle = self.rotation_degrees.y - enemy.rotation_degrees.y
+	if angle < 30 and angle > -30:
+		enemy.facing = true
+	else:
+		enemy.facing = false
