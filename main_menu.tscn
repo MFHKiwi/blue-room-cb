@@ -92,5 +92,19 @@ offset_right = 1132.0
 offset_bottom = 431.0
 texture = ExtResource("3_qs6he")
 
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -123.0
+offset_right = 262.0
+grow_vertical = 0
+text = "Controls:
+
+Move - W/A/S/D
+Toggle flashlight - Left click
+Flash - Right click"
+
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
