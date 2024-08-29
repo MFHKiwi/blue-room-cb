@@ -50,5 +50,37 @@ tooltip_text = "Mouse Sensitivity"
 min_value = 1.0
 value = 1.0
 
+[node name="DeathText" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -159.0
+offset_top = 111.0
+offset_right = 159.0
+offset_bottom = 159.0
+grow_horizontal = 2
+bbcode_enabled = true
+text = "[center]You died.
+"
+scroll_active = false
+
+[node name="WinText" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -159.0
+offset_top = 111.0
+offset_right = 159.0
+offset_bottom = 159.0
+grow_horizontal = 2
+bbcode_enabled = true
+text = "[center]You won, GG!
+"
+scroll_active = false
+
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

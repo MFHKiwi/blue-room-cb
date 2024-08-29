@@ -86,7 +86,7 @@ func _physics_process(delta):
 	else:
 		enemy.facing = false
 	if basketball_counter == 5:
-		get_tree().call_group("menu", "_on_player_death")
+		get_tree().call_group("menu", "_on_player_win")
 	for index in range(get_slide_collision_count()):
 		var collision = get_slide_collision(index)
 		if collision.get_collider().is_in_group("basketball"): 
