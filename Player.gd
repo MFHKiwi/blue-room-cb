@@ -1,7 +1,5 @@
 extends CharacterBody3D
 
-var main_menu = preload("res://main_menu.tscn")
-
 # Mouse Sensitivity
 @export var mouse_sensitivity = 0.001
 # How fast the player moves in meters per second.
