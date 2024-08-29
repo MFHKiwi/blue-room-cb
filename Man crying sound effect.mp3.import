@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://qf0mg5o45gap"
+path="res://.godot/imported/Man crying sound effect.mp3-9f3b37823df2f77ef6d0247fe0ea1cf7.mp3str"
+
+[deps]
+
+source_file="res://Man crying sound effect.mp3"
+dest_files=["res://.godot/imported/Man crying sound effect.mp3-9f3b37823df2f77ef6d0247fe0ea1cf7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

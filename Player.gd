@@ -78,13 +78,11 @@ func _physics_process(delta):
 	move_and_slide()
 	for index in range(get_slide_collision_count()):
 		var collision = get_slide_collision(index)
-		if collision.get_collider().is_in_group("basketball"):
+		if collision.get_collider().is_in_group("basketball"): 
 			collision.get_collider().set_visible(false)
 			basketball_counter += 1
 			get_node("/root/MVP_Map/Enemy").set_physics_process(true)
 		if collision.get_collider().is_in_group("battery"):
 			$Camera3D.get_node("Flashlight").get_node("ProgressBar2").value = 100
-		#if collision.get_collider().is_in_group("enemies"):
-			#get_tree().reload_current_scene()
 		if collision.get_collider().is_class("CharacterBody3D"):
-			get_tree().reload_current_scene()
+			get_tree().reload_current_scene() 

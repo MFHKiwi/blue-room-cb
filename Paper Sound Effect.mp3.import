@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ch74fcog1mfyq"
+path="res://.godot/imported/Paper Sound Effect.mp3-ad634f2bd7d7559e0738f2e28e3b9569.mp3str"
+
+[deps]
+
+source_file="res://Paper Sound Effect.mp3"
+dest_files=["res://.godot/imported/Paper Sound Effect.mp3-ad634f2bd7d7559e0738f2e28e3b9569.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -82,3 +82,38 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.4387, 3.588, 32.9868)
 
 [node name="basketball5" parent="." instance=ExtResource("9_asdwk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0719, 3.588, 1.74322)
+
+[node name="Door Group" type="Node3D" parent="."]
+
+[node name="Node3D5" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08, 30.283, 1.7, 34.9243)
+
+[node name="Node3D6" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08, -21.2224, 1.7, 27.1256)
+
+[node name="Node3D7" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08, -21.2267, 1.7, 30.933)
+
+[node name="Node3D8" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(3.35957, 0, 0.0304074, 0, 2.64, 0, -0.0537732, 0, 1.89976, 20.24, 1.7, 58.988)
+
+[node name="Node3D9" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(3.35957, 0, 0.0304074, 0, 2.64, 0, -0.0537732, 0, 1.89976, 23.7866, 1.7, 58.988)
+
+[node name="Node3D10" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(3.35957, 0, 0.0304074, 0, 2.64, 0, -0.0537732, 0, 1.89976, -0.3981, 1.7, 58.8631)
+
+[node name="Node3D11" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08, -21.5759, 1.7, 12.2657)
+
+[node name="Node3D12" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08, -21.1138, 1.7, 7.56576)
+
+[node name="Node3D13" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(3.36, 0, -0.000862277, 0, 2.64, 0, 0.00152487, 0, 1.9, 3.47983, 1.7, 4.83744)
+
+[node name="Node3D14" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(3.36, 0, -0.000862277, 0, 2.64, 0, 0.00152487, 0, 1.9, -0.894211, 1.7, 4.84942)
+
+[node name="Node3D15" parent="Door Group" instance=ExtResource("8_m3hud")]
+transform = Transform3D(-1.4687e-07, 0, -1.9, 0, 2.64, 0, 3.36, 0, -8.30516e-08, 30.6275, 1.7, 39.0439)

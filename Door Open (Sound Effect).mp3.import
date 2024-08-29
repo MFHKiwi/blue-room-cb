@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ck7cdmc4bnc6p"
+path="res://.godot/imported/Door Open (Sound Effect).mp3-2731b84ce7d801d403727e6fdbe3090e.mp3str"
+
+[deps]
+
+source_file="res://Door Open (Sound Effect).mp3"
+dest_files=["res://.godot/imported/Door Open (Sound Effect).mp3-2731b84ce7d801d403727e6fdbe3090e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
