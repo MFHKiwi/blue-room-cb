@@ -85,8 +85,6 @@ func _physics_process(delta):
 		enemy.facing = true
 	else:
 		enemy.facing = false
-	if basketball_counter == 5:
-		get_tree().call_group("menu", "_on_player_win")
 	for index in range(get_slide_collision_count()):
 		var collision = get_slide_collision(index)
 		if collision.get_collider().is_in_group("basketball"): 
@@ -98,3 +96,5 @@ func _physics_process(delta):
 		if collision.get_collider().is_class("CharacterBody3D"):
 			get_tree().call_group("menu", "_on_player_death")
 		break
+	if basketball_counter == 5:
+		get_tree().call_group("menu", "_on_player_win")
